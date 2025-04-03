@@ -1,0 +1,102 @@
+
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Prezentacja DevOps</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section><h1>🚀 Wykład: Rok w DevOpsie – migracje, automatyzacje i doświadczenia z życia wzięte</h1>
+
+<h2>🧭 1. Wprowadzenie: co działo się przez ostatni rok</h2>
+
+<p>Ten wykład to nie podręcznikowa teoria, ale praktyczny przegląd mojego ostatniego roku w świecie DevOps – z perspektywy realnych zadań, migracji i automatyzacji, które prowadziłem w firmie <strong>S&amp;P Global</strong>. Opowiem Wam:</p>
+
+<p>➡️ Co zastałem<br />
+🔧 Co zmieniłem<br />
+📚 Czego się nauczyłem<br />
+❌ Czego bym nie powtórzył 😄</p>
+</section><section><h2>🛠️ 2. Co zastałem – stan CI/CD, narzędzia, problemy</h2>
+
+<ul>
+<li>🏗️ Systemy buildujące oparte o <strong>TeamCity</strong></li>
+<li>🚀 Deploymenty zarządzane przez <strong>Octopus Deploy</strong></li>
+<li>📦 Lokalny serwer feedów z paczkami <strong>NuGet</strong> i <strong>npm</strong></li>
+<li>🧩 Brak spójności w procesach buildowania i publikowania artefaktów</li>
+<li>🖐️ Wdrożenia częściowo ręczne, mało elastyczne, zależne od wielu systemów</li>
+</ul>
+</section><section><h2>🔄 3. Co zmieniłem – usprawnienia, migracje, automatyzacje</h2>
+
+<ul>
+<li>🔁 <strong>Migracja buildów</strong> z TeamCity do <strong>Azure Pipelines</strong> (projekty web, frontend, baza danych)</li>
+<li>🎯 <strong>Przeniesienie artefaktów</strong> (NuGet, npm) z lokalnych feedów do <strong>Artifactory</strong></li>
+<li>🧑‍💼 <strong>Administracja Octopus Deploy</strong> – zarządzanie rolloutami aplikacji</li>
+<li>💸 <strong>Migracja do GitHub Actions</strong> – oszczędność kosztów + większa kontrola</li>
+<li>🐳 Publikacja paczek do <strong>GHCR</strong> przez Azure Pipelines</li>
+<li>☁️ Deploymenty do środowiska <strong>AWS Cloud</strong> – CI/CD full-stack</li>
+<li>🧩 Budowa własnych <strong>workflowów w GitHub Actions</strong> od zera</li>
+<li>🧰 Tworzenie <strong>frameworka do migracji repozytoriów i zespołów</strong> z Azure do GitHub</li>
+</ul>
+</section><section><h2>🧠 4. Czego się nauczyłem – kompetencje techniczne i miękkie</h2>
+
+<p>🔧 <strong>Techniczne:</strong>
+- YAML masterclass: <strong>Azure Pipelines</strong>, <strong>GitHub Actions</strong>
+- Praca z: <strong>Artifactory</strong>, <strong>GHCR</strong>, <strong>NuGet</strong>, <strong>npm</strong>
+- Integracje CI/CD z <strong>AWS</strong> (EC2, S3, ECR, etc.)
+- Migracje infrastruktury i repozytoriów</p>
+
+<p>💬 <strong>Miękkie:</strong>
+- Praca z wieloma zespołami (dev, QA, sec, PM)
+- Dokumentowanie procesów migracyjnych
+- Tłumaczenie DevOpsu na „ludzki język” 😄</p>
+</section><section><h2>🧪 4a. Technologie i języki, z którymi pracowałem</h2>
+
+<p>📝 <strong>YAML</strong> – serce każdego pipeline’a<br />
+🐚 <strong>Bash</strong> – automatyzacja zadań systemowych<br />
+🐪 <strong>Perl</strong> / 💎 <strong>Ruby</strong> – starsze skrypty<br />
+⚙️ <strong>C# Script (.csx)</strong> – Octopus Deploy i komponenty .NET<br />
+🌍 <strong>Terraform</strong> – infrastruktura jako kod<br />
+🥒 <strong>Pickle</strong> – DSL do starszych komponentów</p>
+</section><section><h2>⚠️ 5. Z czym było najtrudniej – fuckupy i lekcje</h2>
+
+<ul>
+<li>🔄 Rozbieżności w konfiguracjach pipeline’ów – brak standardów</li>
+<li>📉 Braki w dokumentacji historycznej – „to działa, ale nie wiadomo dlaczego”</li>
+<li>🧨 Niespodzianki przy migracjach: tokeny, taski, dostępności</li>
+<li>🔄 Komunikacja: każdy zespół mówi „swoim językiem”</li>
+</ul>
+</section><section><h2>💡 6. Wnioski i refleksje</h2>
+
+<ul>
+<li>🛠️ Automatyzacja to nie tylko skrypty – to też komunikacja i dokumentacja</li>
+<li>🚚 Migracje to świetna okazja, by ogarnąć procesy od A do Z</li>
+<li>🧯 Dobrze zrobione CI/CD = ratunek dla projektu</li>
+<li>🤯 GitHub Actions = moc + pole minowe 😅</li>
+</ul>
+</section><section><h2>🎓 7. Q&amp;A + bonusowe tipy dla DevOpsujących studentów</h2>
+
+<p>💬 <strong>Tipy:</strong>
+- 🧾 Naucz się czytać cudzy YAML – to skill premium
+- 🏷️ Dbaj o wersjonowanie i opisy artefaktów
+- 📘 Dokumentuj nawet małe zmiany
+- 🤖 Automatyzuj z głową</p>
+
+<p><strong>Dzięki za uwagę – pytania?</strong> 🎤</p>
+</section>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true
+    });
+  </script>
+</body>
+</html>
